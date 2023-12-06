@@ -40,6 +40,7 @@
             this.textBox1.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.textBox1.Location = new System.Drawing.Point(9, 8);
             this.textBox1.Name = "textBox1";
+            this.textBox1.PasswordChar = '*';
             this.textBox1.Size = new System.Drawing.Size(292, 26);
             this.textBox1.TabIndex = 0;
             this.textBox1.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.textBox1_KeyPress);
